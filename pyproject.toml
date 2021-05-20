@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "djangots"
+version = "0.1.0"
+description = ""
+authors = ["matheus <matheus.tessaroli@olist.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^3.2.3"
+mysqlclient = "^2.0.3"
+psycopg2-binary = "^2.8.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
